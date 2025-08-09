@@ -1,6 +1,6 @@
-# Graphical Password Authentication Server
+# Kawach
 
-Graphical Password Authentication Server is a Node.js-based web application that provides API endpoints for the client to create and authenticate with image passwords in combination with alphanumeric passwords. This project is built with Express.js and uses MongoDB for database storage.
+Kawach Server is a Node.js-based web application that provides API endpoints for the client to create and authenticate with image passwords in combination with alphanumeric passwords. This project is built with Express.js and uses MongoDB for database storage.
 
 ## Installation
 To install this project, follow these steps:
