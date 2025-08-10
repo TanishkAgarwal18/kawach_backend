@@ -24,6 +24,10 @@ const swaggerDocument = JSON.parse(
 app.use(cors())
 app.use(bodyParser.json())
 
+app.get('/',(req,res)=>{
+    res.status(200).send("Backend is Live ")
+})
+
 app.use('/api/verify', VerifyRoute)
 app.use('/api/user/', userRoutes)
 app.use('/api/image/', imageRoutes)
